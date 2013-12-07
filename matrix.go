@@ -7,9 +7,10 @@ import (
 )
 
 type MatrixOrbital struct {
-	tcpAddr             *net.TCPAddr
-	tcpConn             *net.TCPConn
-	maxColumns, maxRows int
+	tcpAddr    *net.TCPAddr
+	tcpConn    *net.TCPConn
+	maxColumns int
+	maxRows    int
 }
 
 func CreateMatrixOrbital(hostAddr string, port int, maxColumns int, maxRows int) (m *MatrixOrbital) {

@@ -1,4 +1,4 @@
-package gomatrix
+package matrix
 
 import (
 	"flag"
